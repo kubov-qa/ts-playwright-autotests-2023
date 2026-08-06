@@ -1,0 +1,31 @@
+import { SMART_LK_EXACT_TIME_TITLE, SMART_LK_INTERVAL_TITLE } from '../../common/constants/adcampaign-constants';
+
+export const ADCAMPAIGN_LOCATORS = {
+  NAVBAR_BUTTON: 'id=smart-menu-0-Реклама',
+  ADD_BUTTON: 'id=toolbar_button_add',
+  TITLE_INPUT: 'id=input_start-campaign',
+  FILE_INPUT: '[type="file"]',
+  PROMO_UPLOAD_BUTTON: 'id=media_uploader_create_new_campaign_button',
+  ADD_MODAL_BUTTON: 'id=button_create_new_ad_modal',
+  DROWER_TITLE: 'id=title_drawer',
+  POINTS_TAB: 'id=tabs_ads-mode_1',
+  PROMOS_TAB: 'id=tabs_ads-mode_2',
+  TYPE_SELECTOR_FOR_INTERVAL_AD: `//*[@id="select_ad_type_for_form"]//*[text()="${SMART_LK_INTERVAL_TITLE}"]`,
+  TYPE_SELECTOR_INTERVAL_VALUE: 'id=select_ad_type_INTERVAL',
+  TYPE_SELECTOR_EXACT_TIME_VALUE: 'id=select_ad_type_EXACT_TIME',
+  MODE_VALUE_INPUT: 'id=input_mode-value',
+  PROMO_TIME_INPUT_ID_PREFIX: 'ad_promos_setting_item-',
+  SETTINGS_SAVE_BUTTON: 'id=button_submit',
+  SETTINGS_SAVE_CONFIRM_BUTTON: 'id=button_confirm_ad_campaign_create_modal',
+
+  OPEN_WEB_PLAYER: 'id=web_player_button_open',
+  CHANGE_WAVE: 'text="Сменить волну"',
+  POINT_NAVBAR_BUTTON: 'id=smart-menu-0-Адреса',
+  MODAL_INPUT: 'id=input_create_point_modal_address',
+  POINT_CREATE_BUTTON: 'id=button_create_new_point_modal',
+  ADD_STREAM_BUTTON: 'id=stream_info_button_create_stream',
+  DELETE_POINT_BUTTON: 'id=button_point_remove',
+  DELETE_POINT_MODAL_BUTTON: 'id=button_confirm_remove_point_modal',
+  POINT_THUMB_SWITCH_ID_PREFIX: 'thumb_switch_item_bind_',
+  POINT_COUNTER_ID_PREFIX: 'ad_list_item_points_count-',
+};
